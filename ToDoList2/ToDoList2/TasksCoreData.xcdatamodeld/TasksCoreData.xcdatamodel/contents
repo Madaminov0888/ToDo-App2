@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21754" systemVersion="22G74" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="TasksEntity" representedClassName="TasksEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="descriptionOfTask" optional="YES" attributeType="String"/>
+        <attribute name="doneTask" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="endTime" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="repeatMonth" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="repeatWeek" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="target" optional="YES" attributeType="String"/>
+        <attribute name="time" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+</model>
